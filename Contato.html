@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+    <head>
+        <meta charset="UTF 8">
+        <title>Contato Barbearia Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="NewStyle.css">
+        <link rel="stylesheet" href="contato.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" type="image/x-icon" href="cabelo+barba.jpg">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Slabo+27px&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img src="logo.png" class="imagem"></h1>
+                <nav>
+                    <ul class="lista1">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <div>
+                    <label class="form-principal" for="nomesobrenome">Nome e sobrenome
+                    <input class="inputprincipal" type="text" id="nomesobrenome" required placeholder=
+                    "Digite seu nome completo"></label>
+                    
+                    <label class="form-principal" for="email">E-mail
+                    <input class="inputprincipal" type="email" id="email" required placeholder=
+                    "digiteseuemail@aqui.com"></label>
+
+                    <label class="form-principal" for="telefo">Telefone
+                    <input class="inputprincipal" type="tel" id="telefo" required placeholder=
+                    "(XX) XXXXX XXXX"></label>
+                    <p>Mensagem</p>    
+                    <textarea rows="10" cols="50" placeholder="Digite sua mensagem aqui."></textarea>
+                </div> 
+                <div class="radio">
+                    <p>Como gostaria de enviar sua mensagem?</p>
+
+                    <label for="emailradio">E-mail<input type="radio" id="emailradio" name="marca"> </label>
+
+                    <label for="telradio">Telefone<input type="radio" id="telradio" name="marca"> </label>
+
+                    <label for="whatsappaudio">Whatsapp<input type="radio" id="whatsappaudio" checked name="marca"> </label>
+                </div>
+                <div class="option">
+                    <p>Quando prefere ser atentido?</p>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </div>
+                <label>Deseja receber as novidades por e-mail?<input type="checkbox" id="check" checked></label>
+                
+                <input type="submit" value="Enviar formulario" id="enviar">
+
+                <table>
+                    <thead>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda a sexta</td>
+                            <td>08:00 - 20:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sabado</td>
+                            <td>09:00 - 00:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+
+        </main>
+        <footer>
+            <img class="logo" src="logo-branco.png">
+            <p class="mensagem">&copy; Copyright Barbearia Alura</p>
+
+        </footer>
+    </body>
+</html>   
+

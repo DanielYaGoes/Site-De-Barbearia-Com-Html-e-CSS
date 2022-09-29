@@ -1,0 +1,101 @@
+body{
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Slabo 27px', serif;
+}
+main{
+    margin:0 auto;
+}
+#banner{
+    width:100%;
+}
+
+.texto-principal{
+    text-align:center;
+    font-size: 2em;
+    margin:0 0 1em;
+    clear:left;
+}
+.utensilios{
+    width:150px;
+    float:left;
+    margin:0 20px 20px 150px;
+}
+.corpoproncipal{
+    padding:3em 0;
+    background:#FEFEFEFE
+}
+p:first-line{
+    font-style:italic;
+}
+p:after{
+    font-size:1px;
+    content:"da hora você ein"
+}
+
+.corpoproncipal p{
+    margin:1em 150px;
+}
+h2{
+    text-align: center;
+    text-transform:uppercase;
+}
+.beneficios{
+    display:inline-block;
+    background:#888888;
+    box-shadow: inset 0 0 30px #FFFFFF
+}
+.conteudo-beneficos{
+    width:640px;
+    margin:0 auto;
+}
+.lista-beneficios{
+    margin:0 300px;
+    width:40%;
+}
+.ITENS{
+    line-height:1.5;
+}
+.ITENS:nth-child(1){
+    font-weight:bold;
+}
+.ITENS:before{
+    content:"★"
+}
+.foto{
+    margin:10px 300px;
+    width:35%;
+    opacity:0.9 ;
+    transition:400ms;
+    box-shadow:10px 10px 20px  #000000, -5px -5px 10px #FEFEFEFE
+}
+.foto:hover{
+    opacity:1;
+}
+#Estabelecimento{
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+}
+.mapa-conteudo{
+    width: 940px;
+    margin:0 auto;
+}
+.mapa {
+    text-align:center;
+    padding:2em  0;
+    background:linear-gradient(#FEFEFEFE,#888888)
+}
+
+.mapa p,h2{
+    font-weight:bold;
+    padding:0 0 2em 0;
+}
+
+.video {
+    text-align: center;
+    margin:1em 300px;
+}
+
+@media screen and (max-width=480px){
+
+}

@@ -1,0 +1,62 @@
+body{
+    background:linear-gradient(#FEFEFE,#888888);
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Slabo 27px', serif;
+}
+form{
+    margin:20px 200px;
+}
+form .form-principal {
+    display:block;
+   
+    font-size:20px;
+}
+form .inputprincipal{
+    display:block;
+    margin:20px 0;
+    width: 300px;
+    padding:20px;
+}
+
+form p {
+    
+    font-size:20px;
+}
+
+form label{
+    display:block;
+    font-size:20px;
+    padding:20px 0;
+}
+.radio label{
+    font-size:20px;
+}
+.radio p{
+    font-size:20px;
+}
+.option p {
+    font-size:20px;
+}
+
+select{
+    font-size:15px;
+    padding:15px;
+}
+
+#enviar{
+    font-size:15px;
+    padding:20px;
+    width:250px;
+    background:orange;
+    color:white;
+    font-weight:bold;
+    border:none;
+    border-radius:2px;
+    transition: 1s all
+}
+
+#enviar:hover{
+    background:darkorange;
+    transform:scale(1.1)
+
+}
